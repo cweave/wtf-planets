@@ -1,4 +1,3 @@
-# adopt-me
+# wtf-planets
 
-Building a pet adoption application following along to Brian Holt's _Complete Intro to React, v5_ on [Frontend Masters](https://frontendmasters.com/courses/complete-react-v5/)
-
+Find out what planets are in retrograde and ruining your life.
