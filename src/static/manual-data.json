@@ -1,0 +1,110 @@
+{
+	"retrogrades": [
+		{
+			"name": "Mercury",
+			"dates": [
+				{
+					"start": "Jan 1, 2021",
+					"end": "Jan 30, 2021"
+				},
+				{
+					"start": "May 29, 2021",
+					"end": "Jun 22, 2021"
+				},
+				{
+					"start": "Sep 27, 2021",
+					"end": "Oct 18, 2021"
+				}
+			]
+		},
+		{
+			"name": "Venus",
+			"dates": [
+				{
+					"start": "Dec 19, 2021",
+					"end": "Jan 1, 2021"
+				}
+			]
+		},
+		{
+			"name": "Mars",
+			"dates": []
+		},
+		{
+			"name": "Jupiter",
+			"dates": [
+				{
+					"start": "Jun 20, 2021",
+					"end": "Oct 18, 2021"
+				}
+			]
+		},
+		{
+			"name": "Saturn",
+			"dates": [
+				{
+					"start": "May 23, 2021",
+					"end": "Oct 11, 2021"
+				}
+			]
+		},
+		{
+			"name": "Uranus",
+			"dates": [
+				{
+					"start": "Jan 1, 2021",
+					"end": "Jan 14, 2021"
+				},
+				{
+					"start": "Aug 20, 2021",
+					"end": "Jan 1, 2022"
+				}
+			]
+		},
+		{
+			"name": "Neptune",
+			"dates": [
+				{
+					"start": "Jun 25, 2021",
+					"end": "Dec 1, 2021"
+				}
+			]
+		},
+		{
+			"name": "Pluto",
+			"dates": [
+				{
+					"start": "Apr 27, 2021",
+					"end": "Oct 6, 2021"
+				}
+			]
+		},
+		{
+			"name": "Node",
+			"dates": [
+				{
+					"start": "Jan 1, 2021",
+					"end": "Jan 1, 2022"
+				}
+			]
+		},
+		{
+			"name": "Lilith",
+			"dates": [
+				{
+					"start": "Jan 1, 2021",
+					"end": "Jan 1, 2022"
+				}
+			]
+		},
+		{
+			"name": "Chiron",
+			"dates": [
+				{
+					"start": "Jul 15, 2021",
+					"end": "Dec 19, 2021"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+.planets {
+	display: grid;
+	grid-gap: 1.5em;
+	grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+	@media screen and (max-width: $bp5) {
+		grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+	}
+	> * {
+		padding: 1em 0;
+	}
+
+	.planet {
+		&-name {
+			margin: 0;
+		}
+
+		.retrograde-dates {
+			margin: 0;
+			font-weight: 700;
+		}
+	}
+}

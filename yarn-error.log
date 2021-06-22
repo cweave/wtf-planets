@@ -1,0 +1,76 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Christa\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add icon-map
+
+PATH: 
+  C:\projects\wtfplanets\node_modules\.bin;C:\projects\node_modules\.bin;C:\node_modules\.bin;C:\Users\Christa\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\apps\cmder\vendor\bin;C:\apps\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\apps\cmder\vendor\conemu-maximus5;C:\apps\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\Users\Christa\AppData\Local\Programs\Microsoft VS Code;C:\Users\Christa\AppData\Local\Programs\Python\Python39\;C:\Users\Christa\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Christa\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Christa\AppData\Local\Programs\Python\Python39\;C:\Users\Christa\AppData\Local\Programs\Python\Launcher\;C:\Users\Christa\AppData\Local\Microsoft\WindowsApps;C:\Users\Christa\AppData\Local\Programs\Microsoft VS Code\bin;C:\bin\Cmder;C:\Users\Christa\AppData\Roaming\npm;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\apps\cmder
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/icon-map: Not found
+      at Request.params.callback [as _callback] (C:\Users\Christa\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\Christa\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (events.js:375:28)
+      at Request.<anonymous> (C:\Users\Christa\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (events.js:375:28)
+      at IncomingMessage.<anonymous> (C:\Users\Christa\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (events.js:481:28)
+      at IncomingMessage.emit (events.js:387:35)
+      at endReadableNT (internal/streams/readable.js:1317:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+  	"name": "wtfplanets",
+  	"version": "1.0.0",
+  	"description": "",
+  	"main": "index.js",
+  	"scripts": {
+  		"dev": "parcel src/index.html",
+  		"format": "prettier \"src/**/*.{js,json,html}\" --write",
+  		"lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+  		"test": "echo \"Error: no test specified\" && exit 1"
+  	},
+  	"keywords": [],
+  	"author": "",
+  	"license": "ISC",
+  	"devDependencies": {
+  		"@babel/core": "^7.11.1",
+  		"@babel/preset-env": "^7.11.0",
+  		"@babel/preset-react": "^7.10.4",
+  		"babel-eslint": "^10.1.0",
+  		"cross-env": "^7.0.2",
+  		"eslint": "^7.5.0",
+  		"eslint-config-prettier": "^6.11.0",
+  		"eslint-plugin-import": "^2.22.0",
+  		"eslint-plugin-jsx-a11y": "^6.3.1",
+  		"eslint-plugin-react": "^7.20.3",
+  		"eslint-plugin-react-hooks": "^4.0.8",
+  		"parcel-bundler": "^1.12.4",
+  		"prettier": "^2.0.5"
+  	},
+  	"dependencies": {
+  		"@reach/router": "^1.3.4",
+  		"cheerio": "^1.0.0-rc.3",
+  		"node-fetch": "^2.6.1",
+  		"node-sass": "^6.0.0",
+  		"react": "^16.13.1",
+  		"react-dom": "^16.13.1"
+  	},
+  	"browserslist": [
+  		"last 2 Chrome versions"
+  	]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
