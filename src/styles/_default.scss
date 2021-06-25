@@ -6,7 +6,7 @@
 	font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,700&display=swap');
 
 /* Breakpoint variables */
 $bp-small: 24.15;
@@ -134,7 +134,7 @@ strong,
 button,
 p:first-line,
 p:first-letter {
-	font-family: 'Space Mono', sans-serif;
+	font-family: 'Space Mono', monospace;
 	font-weight: normal;
 	font-style: normal;
 }
@@ -338,7 +338,15 @@ a {
 }
 
 #root {
-	height: 100%;
+	height: 100vh;
 	overflow-x: hidden;
 	position: relative;
+}
+
+.content-container {
+	margin: 1em 3em;
+
+	@media screen and (max-width: $bp5) {
+		margin: 1em;
+	}
 }

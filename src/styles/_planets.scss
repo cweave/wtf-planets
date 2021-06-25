@@ -1,7 +1,10 @@
 .planets {
 	display: grid;
 	grid-gap: 1.5em;
-	grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(350px, 450px));
+	height: 100%;
+	justify-content: center;
+
 	@media screen and (max-width: $bp5) {
 		grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
 	}
@@ -10,6 +13,11 @@
 	}
 
 	.planet {
+		background-color: transparent;
+		width: 350px;
+		height: 450px;
+		perspective: 1000px;
+
 		&-name {
 			margin: 0;
 		}
@@ -17,6 +25,49 @@
 		.retrograde-dates {
 			margin: 0;
 			font-weight: 700;
+		}
+
+		&-card__front,
+		&-card__back {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			backface-visibility: hidden;
+		}
+
+		&-card__back {
+			background-color: #BBBBBB;
+			transform: rotateY(180deg);
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+			border-radius: .5em;
+
+			.name {
+				font-family: $serif;
+				font-size: calc(#{$h2-font-size-min} * 1.25em);
+				color: $black;
+				font-weight: 700;
+			}
+
+			p:first-of-type {
+				margin: 0;
+				font-weight: 700;
+			}
+			p {
+				color: $black;
+			}
+		}
+
+		&-card__inner {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			transition: transform 0.6s;
+			transform-style: preserve-3d;
+		}
+
+		&.flipped .planet-card__inner  {
+			transform: rotateY(180deg);
 		}
 	}
 }
